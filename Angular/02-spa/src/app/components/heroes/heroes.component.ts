@@ -18,9 +18,9 @@ heroes: Heroe[] = [];
 
     this.heroes = this._heroesService.getHeroes();
   }
-
+  
   verHeroe(idx:number){
-    this._router.navigate( ['/heroe', idx]);
+     this._router.navigate( ['/heroe', idx]);
   }
 
 }
